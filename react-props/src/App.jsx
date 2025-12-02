@@ -12,6 +12,7 @@ function App() {
     <Student name="Erza" surname="Scarlet" isStudent={false} />
     <Student name="Lucy" surname="Heartfilia" isStudent={false} />
     <Student name="Rahul" surname="Heeralal" isStudent={false} />
+    <Student/>
     </>
   )
 }
