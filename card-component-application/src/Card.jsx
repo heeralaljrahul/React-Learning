@@ -9,9 +9,10 @@ function Card (){
 
         <div className="card">
             {/* you use the import than you named the picture in order to be able to use it */}
+            {/* You must use className to be able to create a CSS class */}
             <img className="card-image" src={profilePic} alt="Profile Photo of the user"></img>
-            <h2>Rift</h2>
-            <p>I am an IT Lecturer and I teach students from first year and the way to third year level.</p>
+            <h2 className ="card-title">Rift</h2>
+            <p className="card-text">I am an IT Lecturer and I teach students from first year and the way to third year level.</p>
         </div>
     );
 }
